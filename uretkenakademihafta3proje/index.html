@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  h1{
+    font-size:40px;
+    font-family:decorative;
+    text-center:helvatica; 
+  }
+  body{
+     background-image: url("http://images.unsplash.com/photo-1506451354516-8fcd4e82505f?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max"); /* Kullanılacak Görsel */
+  background-color: gray; /* Görsel Çalışmassa Arkaplan Rengi */
+  background-position: center; /* Görseli Ortala */
+  background-repeat: no-repeat; /* Resmi tekrarlama */
+  background-size: cover; /* resmi ekranı kaplayacak hale getir. */
+  }
+  .jumbotron{
+    background-image: url("http://images.unsplash.com/photo-1506451354516-8fcd4e82505f?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max"); /* Kullanılacak Görsel */
+  background-color: gray; /* Görsel Çalışmassa Arkaplan Rengi */
+  background-position: center; /* Görseli Ortala */
+  background-repeat: no-repeat; /* Resmi tekrarlama */
+  background-size: cover; /* resmi ekranı kaplayacak hale getir. */
+  }
+  .img{
+    background-image: url("https://www.wallpaperflare.com/static/227/442/476/mountains-landscape-nature-clouds-wallpaper.jpg"); /* Kullanılacak Görsel */
+  background-color: gray; /* Görsel Çalışmassa Arkaplan Rengi */
+  background-position: center; /* Görseli Ortala */
+  background-repeat: no-repeat; /* Resmi tekrarlama */
+  background-size: cover; /* resmi ekranı kaplayacak hale getir. */
+  width:1300px;
+  height:300px;
+  }
+ 
+  </style>
+</head>
+<body>
+ <div class="img">
+  
+  <h1 class="text-center text-white font-italic">Zeynep Büşra Keskin</h1>
+  <p class="text-center text-white">"Bir insan için küçük bir adım insanlık için dev bir sıçrama."Neil Armstrong</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark text-center">
+  <a class="navbar-brand" href="#">Menü</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Anasayfa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://zeynepbusrakeskin.wordpress.com/category/veri-madenciligi/">Veri Madenciliği</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://zeynepbusrakeskin.wordpress.com/category/sql-server/">MS-SQL Server</a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link" href="https://zeynepbusrakeskin.wordpress.com/akademik/">Web Programlama</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://zeynepbusrakeskin.wordpress.com/oteki-ben/">Öteki Ben</a>
+      </li>  
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Hakkımda</h2>
+  
+      <div class="fakeimg"></div>
+      
+      <h3>İletişim</h3>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/zeynep-öztürk/">Linkedın</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="https://github.com/zeynepbkeskin">Github</a>
+        </li>
+        <li class="nav-item">
+           <a class="email">zyynppoztrk@hotmail.com</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>POWERBI İLE VERİ GÖRSELLEŞTİRME</h2>
+      <h5>Nisan 16, 2019</h5>
+      <img class="img-fluid rounded" src="lib/power2.jpg">
+      <p>Some text..</p>
+      <p>Programımızı açtıktan sonra karşımıza gelen ekranda,sol üst köşede Veri Al butonuna tıklayıp verilerimizi çekmek istediğimiz uygulamayı seçiyoruz.(Ben Excel ile çalışacağımdan Excel’i seçiyorum.) Çalışmak istediğimiz dosyayı seçip Aç…</p>
+     
+      <a href="https://zeynepbusrakeskin.wordpress.com/2019/04/16/power-bi-ile-veri-gorsellestirme/" class="btn btn-secondary btn-default active" role="button">Read More..</a>
+  
+
+      <br>
+      <h2>WEKA İLE VERİ MADENCİLİĞİ-5
+        BİRLİKTELİK ANALİZİ
+      </h2>
+      <h5>Mart 3,2019</h5>
+      <img class="img-fluid rounded" src="lib/veri.jpg">
+      <p>Birliktelik Analizi Nedir?
+        Belirli bir veri seti içerisindeki verilerin birlikte bulunma ve/veya birlikte bulunmama olasılıklarının,belirli yöntemler ve algoritmalar kullanılarak tespit edilmesidir.</p>
+         <a href="https://zeynepbusrakeskin.wordpress.com/2019/03/03 weka-ile-veri-madenciligi-5-birliktelikassociate-analizi/" class="btn btn-secondary btn-default active" role="button">Read More..</a>
+         <br>
+      <h2>SQL-SERVER SATIR SAYISINI DEĞİŞTİRME
+      </h2>
+      <h5>Şubat 23,2019</h5>
+      <img class="img-fluid rounded" src="lib/sql.jpg">
+      <p>Some text..</p>
+      <p>SQL Server da tablomuza ait satırları görüntülemek, düzenlemek istediğimizde ilgili tablomuza sağ tıkladığımızda açılan Edit Top 200(değişiklik yapılmadığında 200 olarak karşımıza çıkar) Rows seçeneğini kullanırız. Satır sayısının 200 den fazla olduğu durumlarda ise tüm tabloyu görüntüleyebilmek için bu kısımda bulunan....</p>
+         <a href="https://zeynepbusrakeskin.wordpress.com/2019/02/23/ms-sql-server-satir-sayisini-degistirmeedit-top-200-rows/" class="btn btn-secondary btn-default-active" role="button">Read More..</a>
+         <h2>SQL-SERVER TRİGGERLAR</h2>
+      <h5>Şubat 8,2019</h5>
+      <img class="img-fluid rounded" src="lib/sql.jpg">
+      <p>Some text..</p>
+      <p>TRİGGERLAR:Tetikleyici olarak da adlandırılırlar.
+        SQL Server da bir işlem gerçekleştiğinde,işlemle bağlantılı olarak başka bir işlem daha gerçekleştirilmek istenildiğinde kullanılırlar. Örnek verecek olursak; çeşitli firmalardan satın alma işlemini gerçekleştirdiğimiz ürünleri tuttuğumuz bir tablomuz olduğunu ....</p>
+         <a href="https://zeynepbusrakeskin.wordpress.com/2019/02/08/ms-sql-server-triggerlar/" class="btn btn-secondary btn-default active" role="button">Read More..</a>
+    </div>
+  </div>
+</div>
+<div class="jumbotron" style="margin-bottom:0"> 
+<div class="widget-area" style="margin-bottom:0px ">
+  <h6 class="text-left">Blogu E-posta ile Takip Et</h6>
+	<p class="text-left text-break">Bu blogu takip etmek ve yeni gönderilerle ilgili bildirimleri e-postayla almak için e-posta adresinizi girin.</p>
+          <p class="text-left"id="subscribe-email">
+					<label id="subscribe-field-label" for="subscribe-field" class="screen-reader-text">
+						E-posta Adresi:</label>
+            <br>
+					<input type="email" name="email" style="width:100% padding: 1px 10px"
+							placeholder="E-posta Adresi"
+							value=""
+							id="subscribe-field"/>				
+        </p>
+        <p class="text-left">
+       <label id="subscribe-field-label" for="subscribe-field" class="screen-reader-text">
+						Translate</label>
+            <br>
+ <select  name="dil">								
+<option>Türkçe</option>
+<option>English</option>
+<option>Germany</option>
+<option>Spanish</option>
+<option>Chinese</option>
+<option>Japan</option>
+<option>France</option>
+</select>
+        </p>
+</div>
+
+
+</body>
+</html>
+
